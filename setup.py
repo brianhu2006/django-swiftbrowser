@@ -17,7 +17,7 @@ setup(
     url='https://github.com/cschwede/django-swiftbrowser',
     author='Christian Schwede',
     author_email='info@cschwede.de',
-    install_requires=['django>=1.5', 'python-swiftclient'],
+    install_requires=['django==1.6.11', 'python-swiftclient'],
     zip_safe=False,
     classifiers=[
         'Environment :: Web Environment',
